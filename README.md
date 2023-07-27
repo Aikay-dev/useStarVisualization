@@ -98,13 +98,13 @@ The hook takes three parameters:
 
 ## Examples
 
-Let's see some cosmic examples! 🚀🌌
+Let's see some examples! 🚀🌌
 
 For this example, we will use the Fake Store API to get a ton of e-commerce data. To follow along, make sure you have installed the hook as explained in the [Getting Started](#getting-started) section.
 
 ```jsx
 import { useState, useEffect } from "react";
-import useStarVisualization from "@generalaike/use-star-visualization";
+import useStarVisualization from ".../hooks/useStarVisualization";
 
 function CosmicComponent() {
   const [productRating, setProductRating] = useState(4.75);
@@ -126,12 +126,12 @@ function CosmicComponent() {
 
 ## Error Handling
 
-With great cosmic power comes great cosmic responsibility! The UseStarVisualization hook has robust error handling logic to prevent users from using it in the wrong way. Here are some common error handling mechanisms:
+With great power comes great responsibility! The UseStarVisualization hook has robust error handling logic to prevent users from using it in the wrong way. Here are some common error handling mechanisms:
 
 - When passing data into the hook, they should go in the following order: `rating`, `starCount`, and an object containing your custom style. Mixing them up will result in errors.
 - The `rating` count should always be less than or equal to the `starCount`. Trying to render more stars than the base count will trigger an error.
 - The `rating` count should not be less than 0. Rendering negative stars doesn't make sense, and we've got you covered with an error message to remind you.
-- The `starCount` should be greater than 0. We want to render at least one star for your cosmic creations.
+- The `starCount` should be greater than 0. We want to render at least one star for your creations.
 
 ## Contributing
 
@@ -139,4 +139,4 @@ Contributions to the UseStarVisualization hook are more than welcome! If you enc
 
 ## License
 
-This cosmic project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).

@@ -127,7 +127,7 @@ function App() {
             and followed the installation steps properly. If you haven't,
             consider it a cosmic journey you must undertake! 🚀 Alternatively,
             for the seasoned travelers who have already cloned the project,
-            kindly leave us a shining star ⭐ as a cosmic token of appreciation.
+            kindly leave us a shining star ⭐ as a token of appreciation.
             🌟
             <br />
             Now, behold the magic of{" "}
@@ -170,7 +170,7 @@ function App() {
               Fake Store API
             </a>{" "}
             to procure an abundance of e-commerce data. Fear not the void of
-            hardcoded data, for in this cosmic voyage, practicality shall guide
+            hardcoded data, for in this voyage, practicality shall guide
             our path, and our cosmic creations shall resonate with the essence
             of your unique project. We shall employ the default fetch function
             to obtain our data, though you are free to choose any other method,
@@ -264,7 +264,7 @@ function App() {
             what to do to bring the universe back into balance.
           </p>
           <p>
-            ⭐ Time for some cosmic house rules! You can't pass a{" "}
+            ⭐ Time for some house rules! You can't pass a{" "}
             <span style={{ fontFamily: "monospace" }}>starCount</span> value
             less than or equal to 0. Even the cosmos demands at least one star
             to be shining in the sky! Don't worry; we've got you covered, and
@@ -287,7 +287,7 @@ function App() {
             <span style={{ fontFamily: "monospace" }}>
               backgroundColor: "red"
             </span>
-            . Just a small adjustment to ensure your cosmic styling works its
+            . Just a small adjustment to ensure your styling works its
             magic!
           </p>
           <span className="conclusion">Conclusion ❕</span>
@@ -299,8 +299,8 @@ function App() {
               useStar visualization hook
             </span>{" "}
             awaits your command, and with its seamless magic, your project shall
-            shine like the stars! If you feel like showing your cosmic
-            appreciation, don't hesitate to share a cup of cosmic coffee with
+            shine like the stars! If you feel like showing your
+            appreciation, don't hesitate to share a cup of coffee with
             the dev — details can be found in the header section. Thank you for
             choosing{" "}
             <span style={{ fontFamily: "monospace" }}>
