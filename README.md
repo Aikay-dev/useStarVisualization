@@ -29,20 +29,60 @@ Our hook allows you to effortlessly transform numerical ratings into beautiful s
 Before using the UseStarVisualization hook, make sure you have the following installed in your project:
 
 - [React](https://reactjs.org/)
+- [FontAwesome](https://fontawesome.com/v6/docs/web/use-with/react/)
 
 ### Installation
 
-To install the UseStarVisualization hook, you can use npm or yarn:
+To use the UseStarVisualization hook, make sure to install the following:
+
+Step 1
 
 Using npm:
 ```
-npm install @generalaike/use-star-visualization
+npm install @fortawesome/react-fontawesome
 ```
 
 Using yarn:
 ```
-yarn add @generalaike/use-star-visualization
+yarn add @fortawesome/react-fontawesome
 ```
+
+Step 2 
+
+Using npm:
+```
+npm install @fortawesome/free-solid-svg-icons
+```
+
+Using yarn:
+```
+yarn add @fortawesome/free-solid-svg-icons
+```
+
+Step 3
+
+Using npm:
+```
+npm install @fortawesome/fontawesome-svg-core
+```
+
+Using yarn:
+```
+yarn add @fortawesome/fontawesome-svg-core
+```
+
+Step 4
+
+Using npm:
+```
+npm install @fortawesome/free-regular-svg-icons
+```
+
+Using yarn:
+```
+yarn add @fortawesome/free-regular-svg-icons
+```
+
 
 ## Usage
 

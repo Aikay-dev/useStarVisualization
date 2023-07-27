@@ -2,6 +2,12 @@ import { faStar as fasStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import useStarVisualization from "./hooks/useStarVisualization";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+library.add(far, fas, fab);
 
 type shopDataType = {
   image: string;
@@ -31,6 +37,21 @@ function App() {
           </span>
           UseStar Visualization Hook
         </p>
+        <div>
+          <a href="https://github.com/GeneralAike" target="blank">
+            {" "}
+            <FontAwesomeIcon icon={["fab", "github"]} />
+          </a>
+          <a href="https://twitter.com/general_ik" target="blank">
+            <FontAwesomeIcon icon={["fab", "twitter"]} />
+          </a>
+          <a href="https://www.instagram.com/_a.i.k.a.y/" target="blank">
+            <FontAwesomeIcon icon={["fab", "instagram"]} />
+          </a>
+          <a href="https://www.linkedin.com/in/emmanuel-esekhaigbe-3b9046241/" target="blank">
+            <FontAwesomeIcon icon={["fab", "linkedin"]} />
+          </a>
+        </div>
       </header>
       <section className="main-section">
         <div className="banner">
@@ -50,7 +71,7 @@ function App() {
           <p className="firstPara">
             Are you tired of wrestling with rating visualizations in your web
             projects? Want an elegant and customizable way to showcase ratings
-            in the form of stars? Fear not, for the{" "}
+            in the form of stars? Fear not, the{" "}
             <span style={{ fontFamily: "monospace" }}>
               useStarVisualization
             </span>{" "}
@@ -58,14 +79,14 @@ function App() {
             ratings to celestial heights! ✨
           </p>
           <p className="secondPara">
-            Our cosmic hook allows you to effortlessly transform numerical
-            ratings into beautiful star representations. Whether you're building
-            an e-commerce website, a review platform, or any application that
+            Our hook allows you to effortlessly transform numerical ratings into
+            beautiful star representations. Whether you're building an
+            e-commerce website, a review platform, or any application that
             requires user ratings,{" "}
             <span style={{ fontFamily: "monospace" }}>
               useStarVisualization
             </span>{" "}
-            is your steadfast companion on this stellar journey. 🌌
+            is your steadfast companion on this amazing journey. 🌌
           </p>
           <p className="topic-why-choose">Why Choose useStarVisualization ❔</p>
           <ul className="list">
@@ -86,62 +107,61 @@ function App() {
                 useStarVisualization
               </span>{" "}
               automatically handles changes in ratings, ensuring that your
-              starry representations remain in sync with the celestial data. 🌀
+              starry representations remain in sync with your data. 🌀
             </p>
             <p>
-              ⭐ Accessibility: Embrace the cosmic principle of inclusion! We
+              ⭐ Accessibility: We embrace the principle of inclusion! We
               prioritize accessibility standards, making sure the star
-              visualizations are usable by all beings, including those who rely
-              on cosmic screen readers. 📜
+              visualizations are usable by all, including those who rely on
+              screen readers. 📜
             </p>
             <p>
-              ⭐ Lightweight: Fear not the cosmic scales! Our hook is designed
-              to be as light as a cosmic feather, gracefully avoiding
-              unnecessary bloat in your celestial project. 🪶
+              ⭐ Lightweight: Don't worry about the size of our hook! Our hook
+              is designed to be as light as a feather, gracefully avoiding
+              unnecessary bloat in your project. 🪶
             </p>
           </ul>
           <p className="topic-How-it-works">How it works❔</p>
           <p>
-            First and foremost, as a celestial scholar, I assume you've ventured
-            to the GitHub repository and followed the installation steps
-            properly. If you haven't, consider it a cosmic journey you must
-            undertake! 🚀 Alternatively, for the seasoned travelers who have
-            already cloned the project, kindly leave us a shining star ⭐ as a
-            cosmic token of appreciation. 🌟
+            First and foremost, I assume you've visited the GitHub repository
+            and followed the installation steps properly. If you haven't,
+            consider it a cosmic journey you must undertake! 🚀 Alternatively,
+            for the seasoned travelers who have already cloned the project,
+            kindly leave us a shining star ⭐ as a cosmic token of appreciation.
+            🌟
             <br />
-            Now, behold the celestial magic of{" "}
+            Now, behold the magic of{" "}
             <span style={{ fontFamily: "monospace" }}>
               useStarVisualization
             </span>
             ! Simply pass the{" "}
             <span style={{ fontFamily: "monospace" }}>rating</span> value, the
             desired number of stars, and an object of your desired styling as
-            cosmic parameters. Witness the marvel as you receive an array of{" "}
+            parameters. Witness the marvel as you receive an array of{" "}
             <span style={{ fontFamily: "monospace" }}>font awesome stars</span>,
-            each represented by a cosmic CSS class, ready to be seamlessly
-            integrated into your cosmic UI. Ah, do you find yourself pondering
-            over a style fit for the celestial stars? Worry not, for{" "}
+            each represented by a CSS class, ready to be seamlessly integrated
+            into your UI. Ah, do you find yourself pondering over a style fit
+            for the celestial stars? Worry not, for{" "}
             <span style={{ fontFamily: "monospace" }}>
               useStarVisualization
             </span>{" "}
-            includes default styling out of the cosmic box! If you wish to use
-            the default style, just pass in an empty object in the styling part
-            of the hook. Allow me to demonstrate a function with the default
+            includes default styling out of the box! If you wish to use the
+            default style, just pass in an empty object in the styling part of
+            the hook. Allow me to demonstrate a function with the default
             styling:{" "}
             <span style={{ fontFamily: "monospace" }}>
               useStarVisualization(data.rating.rate, 5, {"{}"})
             </span>
-            . Pardon the celestial paradox, but for proper display in the
-            browser, the object string should not be present. See, cosmic
-            balance restored! ☯️
+            . By passing an empty object as the third argument, you prevent
+            overwriting any of the default styles. ☯️
           </p>
         </article>
 
         <section className="example-section">
           <p className="header">Let's Embark on an Interstellar Adventure!🤩</p>
           <p>
-            For this cosmic example, we shall traverse the cosmic realms and
-            harness the power of the{" "}
+            For this example, we shall traverse the cosmic realms and harness
+            the power of the{" "}
             <a
               href="https://fakestoreapi.com/"
               target="_blank"
@@ -153,17 +173,16 @@ function App() {
             hardcoded data, for in this cosmic voyage, practicality shall guide
             our path, and our cosmic creations shall resonate with the essence
             of your unique project. We shall employ the default fetch function
-            to obtain our data, though you are free to choose any other
-            celestial method, like Axios, that aligns with your cosmic
-            sensibilities.
+            to obtain our data, though you are free to choose any other method,
+            like Axios, that aligns with your work flow.
           </p>
         </section>
 
         <section className="ecommerce-sect">
-          {storeData?.map((data) => {
+          {storeData?.map((data, index) => {
             console.log(storeData);
             return (
-              <div className="card">
+              <div className="card" key={index}>
                 <div className="product-image-holder">
                   <img
                     src={data.image}
@@ -197,19 +216,13 @@ function App() {
           <p className="header">Error Handling ❗</p>
           <p>
             With every piece of software ever created, there are bound to be
-            some <span style={{ fontFamily: "monospace" }}>errors</span> — some
-            of which can be quite humorous! Fear not, for the{" "}
+            some errors — some of which can be quite humorous! Fear not, for the{" "}
             <span style={{ fontFamily: "monospace" }}>
               useVisualization Hook
             </span>{" "}
-            comes equipped with robust{" "}
-            <span style={{ fontFamily: "monospace" }}>
-              error handling logic
-            </span>{" "}
-            to prevent users from unleashing chaos on their UIs. Let's take a
-            look at some of the witty and informative{" "}
-            <span style={{ fontFamily: "monospace" }}>error messages</span> that
-            you might encounter:
+            comes equipped with robust error handling logic to prevent users
+            from unleashing chaos on their UIs. Let's take a look at some of the
+            witty and informative error messages that you might encounter:
           </p>
           <p>
             ⭐ Oh dear! It seems you've mixed up the data order when passing it
@@ -229,12 +242,11 @@ function App() {
             conditionals to avoid unexpected issues.
           </p>
           <p>
-            ⭐ Hold on a second! The{" "}
-            <span style={{ fontFamily: "monospace" }}>Rating count</span>{" "}
-            (that's the rating of the particular product) should never exceed
-            the <span style={{ fontFamily: "monospace" }}>StarCount</span>. We
-            don't want to end up with one product shining brightly with 7 base
-            stars while another has just 5. Let's keep it consistent, clean, and
+            ⭐ Hold on a second! The Rating count (that's the rating of the
+            particular product) should never exceed the{" "}
+            <span style={{ fontFamily: "monospace" }}>StarCount</span>. We don't
+            want to end up with one product shining brightly with 7 base stars
+            while another has just 5. Let's keep it consistent, clean, and
             visually appealing! So, if you try using the function like this:{" "}
             <span style={{ fontFamily: "monospace" }}>
               useStarVisualization(7, 5, {"{}"})
