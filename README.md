@@ -83,10 +83,10 @@ yarn add @fortawesome/free-regular-svg-icons
 
 ## Usage
 
-To use the hook in your React project, simply import it as follows:
+To use the hook in your React project, simply copy and place the useStarvisualization file in your hooks folder and import it accordingly:
 
 ```jsx
-import useStarVisualization from "@generalaike/use-star-visualization";
+import useStarVisualization from ".../hooks/useStarVisualization";
 
 // Your component code...
 ```
