@@ -34,52 +34,18 @@ To use the UseStarVisualization hook, make sure to install the following:
 
 Step 1
 
-Using npm:
-```
-npm install @fortawesome/react-fontawesome
-```
+Clone the repo
+`https://github.com/GeneralAike/useStarVisualization.git`
 
-Using yarn:
-```
-yarn add @fortawesome/react-fontawesome
-```
+Step 2
 
-Step 2 
-
-Using npm:
-```
-npm install @fortawesome/free-solid-svg-icons
-```
-
-Using yarn:
-```
-yarn add @fortawesome/free-solid-svg-icons
-```
+Move into its directory
+`cd useStarVisualization`
 
 Step 3
 
-Using npm:
-```
-npm install @fortawesome/fontawesome-svg-core
-```
-
-Using yarn:
-```
-yarn add @fortawesome/fontawesome-svg-core
-```
-
-Step 4
-
-Using npm:
-```
-npm install @fortawesome/free-regular-svg-icons
-```
-
-Using yarn:
-```
-yarn add @fortawesome/free-regular-svg-icons
-```
-
+Install dependencies with npm or yarn
+`npm i || yarn add`
 
 ## Usage
 
